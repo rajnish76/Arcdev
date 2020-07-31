@@ -169,6 +169,7 @@ const MobileApps = (props) => {
               align={matchesSM ? "center" : "right"}
               variant="h4"
               gutterBottom
+              style={{ marginTop: matchesSM ? "2em" : 0 }}
             >
               Simultaneous Platform Support
             </Typography>
