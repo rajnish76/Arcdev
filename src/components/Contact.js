@@ -106,15 +106,15 @@ export default function Contact(props) {
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
   const matchesXS = useMediaQuery(theme.breakpoints.down("xs"));
 
-  const [name, setName] = useState("Rajnish");
+  const [name, setName] = useState("");
 
-  const [email, setEmail] = useState("Rajnish@gmail.com");
+  const [email, setEmail] = useState("");
   const [emailHelper, setEmailHelper] = useState("");
 
-  const [phone, setPhone] = useState("1234567890");
+  const [phone, setPhone] = useState("");
   const [phoneHelper, setPhoneHelper] = useState("");
 
-  const [message, setMessage] = useState("Hello");
+  const [message, setMessage] = useState("");
 
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
